@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    display: table;
+    flex-direction: column;
+}
+
+.screen{
+    width: 300px;
+    background-color: #E4DADB;
+    height: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end
+}
+
+.answer{
+    color: purple;
+}
+
+.answer h1{
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+
+.row{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.onhover{
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-color: black;
+    z-index: 1;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.button{
+    width: 25%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    vertical-align: auto;
+}
+
+.button:hover .onhover{
+    display: block;
+}
+
+.number_buttons{
+    border-left: 1px solid #E4DADB;
+    border-top: 1px solid #E4DADB;
+}
+
+.buttons p{
+    font-size: x-large;
+    font-weight: 200;
+}
+
+
+
+.red{
+    background-color: #C4473C;
+    color: #FFEBF2;
+    border-bottom: 2px solid #E4DADB;
+    border-left: 1px solid #E4DADB;
+}
+
+#fifth div{
+    border-bottom: 1px solid #E4DADB;
+}
+
